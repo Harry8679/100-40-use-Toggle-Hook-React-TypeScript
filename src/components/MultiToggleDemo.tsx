@@ -3,7 +3,8 @@ import { useToggle } from '../hooks';
 export const MultiToggleDemo = () => {
   const [wifi, toggleWifi, , , setWifi] = useToggle(true);
   const [bluetooth, toggleBluetooth, , , setBluetooth] = useToggle(false);
-  const [airplane, toggleAirplane, , , setAirplane] = useToggle(false);
+//   const [airplane, toggleAirplane, , , setAirplane] = useToggle(false);
+  const [airplane, , , , setAirplane] = useToggle(false);
   const [location, toggleLocation, , , setLocation] = useToggle(true);
 
   const handleAirplaneModeToggle = () => {
