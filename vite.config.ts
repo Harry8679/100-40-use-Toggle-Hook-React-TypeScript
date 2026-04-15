@@ -5,4 +5,5 @@ export default defineConfig({
   plugins: [
     tailwindcss(),
   ],
+  base: '/100-40-use-Toggle-Hook-React-TypeScript/'
 })
